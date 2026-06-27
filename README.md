@@ -35,7 +35,7 @@ Start basicswap container:
 This will start container sharing the host network. Login into this container and follow basicswap-bash method to install:
 
 ```
-   docke exec -it basicswap /bin/bash
+   docker exec -it basicswap /bin/bash
    cd basicswap-bash
    git pull
    ./basicswap-install.sh
