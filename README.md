@@ -19,11 +19,16 @@ Build docker image:
  docker build -t basicswap .
 ```
 
-Or pull down a working image from docker hub:
-
+Or pull down a working image from docker hub.
+x64 linux:
 ```
- docker pull shorelinecrypto/basicswap:latest
- docker tag shorelinecrypto/basicswap:latest basicswap:latest
+ docker pull shorelinecrypto/basicswap:amd64
+ docker tag shorelinecrypto/basicswap:amd64 basicswap:latest
+```
+arm64 linux:
+```
+ docker pull shorelinecrypto/basicswap:arm64
+ docker tag shorelinecrypto/basicswap:arm64 basicswap:latest
 ```
 
 ### Install BasicSwap in container
