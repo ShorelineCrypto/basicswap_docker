@@ -20,6 +20,7 @@ Build docker image:
 ```
 
 Or pull down a working image from docker hub.
+
 x64 linux:
 ```
  docker pull shorelinecrypto/basicswap:amd64
